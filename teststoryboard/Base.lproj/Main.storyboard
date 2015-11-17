@@ -32,6 +32,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GuG-Rv-aMq">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="117" width="360" height="30"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -47,6 +55,7 @@
                             <mask key="subviews">
                                 <exclude reference="cHn-zh-4xU"/>
                                 <exclude reference="jjb-Q2-Uoz"/>
+                                <exclude reference="GuG-Rv-aMq"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="ZAw-Mv-5Y1"/>
@@ -61,6 +70,7 @@
                             <mask key="subviews">
                                 <include reference="cHn-zh-4xU"/>
                                 <include reference="jjb-Q2-Uoz"/>
+                                <include reference="GuG-Rv-aMq"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="ZAw-Mv-5Y1"/>
