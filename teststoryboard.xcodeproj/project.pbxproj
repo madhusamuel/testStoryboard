@@ -14,6 +14,7 @@
 		3E7A1E0E1BFA9EF600D777EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7A1E0C1BFA9EF600D777EC /* LaunchScreen.storyboard */; };
 		3E7A1E191BFA9EF600D777EC /* teststoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7A1E181BFA9EF600D777EC /* teststoryboardTests.swift */; };
 		3E7A1E241BFAAF1B00D777EC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7A1E231BFAAF1B00D777EC /* FirstViewController.swift */; };
+		3E7A1E261BFABBB100D777EC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7A1E251BFABBB100D777EC /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3E7A1E181BFA9EF600D777EC /* teststoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teststoryboardTests.swift; sourceTree = "<group>"; };
 		3E7A1E1A1BFA9EF600D777EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E7A1E231BFAAF1B00D777EC /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3E7A1E251BFABBB100D777EC /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				3E7A1E0C1BFA9EF600D777EC /* LaunchScreen.storyboard */,
 				3E7A1E0F1BFA9EF600D777EC /* Info.plist */,
 				3E7A1E231BFAAF1B00D777EC /* FirstViewController.swift */,
+				3E7A1E251BFABBB100D777EC /* SecondViewController.swift */,
 			);
 			path = teststoryboard;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7A1E261BFABBB100D777EC /* SecondViewController.swift in Sources */,
 				3E7A1E241BFAAF1B00D777EC /* FirstViewController.swift in Sources */,
 				3E7A1E061BFA9EF600D777EC /* ViewController.swift in Sources */,
 				3E7A1E041BFA9EF600D777EC /* AppDelegate.swift in Sources */,
