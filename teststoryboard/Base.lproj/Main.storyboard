@@ -100,10 +100,10 @@
             </objects>
             <point key="canvasLocation" x="345" y="346.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="TfV-dd-sto">
             <objects>
-                <viewController id="yZ8-7i-qlL" sceneMemberID="viewController">
+                <viewController id="yZ8-7i-qlL" customClass="SecondViewController" customModule="teststoryboard" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gKS-Ad-HE1"/>
                         <viewControllerLayoutGuide type="bottom" id="R0e-Uy-x6g"/>
