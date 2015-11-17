@@ -23,3 +23,5 @@ document
 						variation
 							mask
 					placeholder
+					connections
+						outlet
