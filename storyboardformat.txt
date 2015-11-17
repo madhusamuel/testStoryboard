@@ -1,0 +1,25 @@
+
+document
+	dependencies
+	scenes
+		scene 1
+			objects
+				viewcontroller
+					layout guide
+					view
+						rect
+						autoresizingmask
+						subviews
+							label
+								rect
+								animations
+								fontDescriptions
+								color
+								nil
+								variation
+									rect
+						animations
+						color
+						variation
+							mask
+					placeholder
