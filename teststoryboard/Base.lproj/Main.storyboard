@@ -44,6 +44,9 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Go to next screen"/>
+                                <connections>
+                                    <segue destination="yZ8-7i-qlL" kind="show" id="zK3-zK-xWk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>

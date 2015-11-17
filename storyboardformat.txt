@@ -22,6 +22,8 @@ document
 							button
 								connections
 									action
+									connections
+										segue
 						animations
 						color
 						variation
