@@ -18,6 +18,10 @@ document
 								nil
 								variation
 									rect
+							textfied
+							button
+								connections
+									action
 						animations
 						color
 						variation

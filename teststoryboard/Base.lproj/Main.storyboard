@@ -36,6 +36,9 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="signUpButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1xL-QG-NK7"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
