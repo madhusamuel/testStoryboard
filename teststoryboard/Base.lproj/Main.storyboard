@@ -61,15 +61,15 @@
                                 <exclude reference="GuG-Rv-aMq"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="ZAw-Mv-5Y1"/>
-                                <exclude reference="d0i-Th-rJK"/>
-                                <exclude reference="gDh-zU-a6W"/>
                                 <exclude reference="7fg-L9-8HY"/>
                                 <exclude reference="Jfy-92-Js5"/>
                                 <exclude reference="uTP-n2-vBC"/>
                                 <exclude reference="5Cm-vl-rpz"/>
                                 <exclude reference="6Cx-Fy-5YN"/>
                                 <exclude reference="EhD-5A-4KJ"/>
+                                <exclude reference="ZAw-Mv-5Y1"/>
+                                <exclude reference="d0i-Th-rJK"/>
+                                <exclude reference="gDh-zU-a6W"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -79,15 +79,15 @@
                                 <include reference="GuG-Rv-aMq"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="ZAw-Mv-5Y1"/>
-                                <include reference="d0i-Th-rJK"/>
-                                <include reference="gDh-zU-a6W"/>
                                 <include reference="7fg-L9-8HY"/>
                                 <include reference="Jfy-92-Js5"/>
                                 <include reference="uTP-n2-vBC"/>
                                 <include reference="5Cm-vl-rpz"/>
                                 <include reference="6Cx-Fy-5YN"/>
                                 <include reference="EhD-5A-4KJ"/>
+                                <include reference="ZAw-Mv-5Y1"/>
+                                <include reference="d0i-Th-rJK"/>
+                                <include reference="gDh-zU-a6W"/>
                             </mask>
                         </variation>
                     </view>
@@ -109,6 +109,7 @@
                         <viewControllerLayoutGuide type="bottom" id="R0e-Uy-x6g"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Iqp-FM-BSJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
