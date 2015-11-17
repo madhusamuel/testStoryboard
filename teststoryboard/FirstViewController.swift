@@ -11,6 +11,8 @@ import UIKit
 class FirstViewController: UIViewController {
 
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var nameTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

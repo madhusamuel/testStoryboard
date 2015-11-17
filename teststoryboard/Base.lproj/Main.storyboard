@@ -74,6 +74,7 @@
                     </view>
                     <connections>
                         <outlet property="nameLabel" destination="cHn-zh-4xU" id="wDq-a8-Xu3"/>
+                        <outlet property="nameTextField" destination="jjb-Q2-Uoz" id="wVw-UZ-2dm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
