@@ -31,17 +31,17 @@
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="83" width="360" height="30"/>
-                                </variation>
                             </textField>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="jjb-Q2-Uoz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7fg-L9-8HY"/>
+                            <constraint firstItem="jjb-Q2-Uoz" firstAttribute="top" secondItem="cHn-zh-4xU" secondAttribute="bottom" constant="8" id="Jfy-92-Js5"/>
                             <constraint firstItem="cHn-zh-4xU" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ZAw-Mv-5Y1"/>
                             <constraint firstItem="cHn-zh-4xU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="d0i-Th-rJK"/>
                             <constraint firstItem="cHn-zh-4xU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="gDh-zU-a6W"/>
+                            <constraint firstItem="jjb-Q2-Uoz" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="uTP-n2-vBC"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -52,6 +52,9 @@
                                 <exclude reference="ZAw-Mv-5Y1"/>
                                 <exclude reference="d0i-Th-rJK"/>
                                 <exclude reference="gDh-zU-a6W"/>
+                                <exclude reference="7fg-L9-8HY"/>
+                                <exclude reference="Jfy-92-Js5"/>
+                                <exclude reference="uTP-n2-vBC"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -63,6 +66,9 @@
                                 <include reference="ZAw-Mv-5Y1"/>
                                 <include reference="d0i-Th-rJK"/>
                                 <include reference="gDh-zU-a6W"/>
+                                <include reference="7fg-L9-8HY"/>
+                                <include reference="Jfy-92-Js5"/>
+                                <include reference="uTP-n2-vBC"/>
                             </mask>
                         </variation>
                     </view>
