@@ -130,8 +130,40 @@
                     <view key="view" contentMode="scaleToFill" id="Iqp-FM-BSJ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5L-Fd-H9l">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="h5L-Fd-H9l" firstAttribute="top" secondItem="gKS-Ad-HE1" secondAttribute="bottom" id="R6e-1v-MLC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="h5L-Fd-H9l" secondAttribute="trailing" id="onY-MQ-a4u"/>
+                            <constraint firstItem="h5L-Fd-H9l" firstAttribute="leading" secondItem="Iqp-FM-BSJ" secondAttribute="leadingMargin" id="qsZ-ed-rXL"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="h5L-Fd-H9l"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="R6e-1v-MLC"/>
+                                <exclude reference="onY-MQ-a4u"/>
+                                <exclude reference="qsZ-ed-rXL"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="h5L-Fd-H9l"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="R6e-1v-MLC"/>
+                                <include reference="onY-MQ-a4u"/>
+                                <include reference="qsZ-ed-rXL"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qzb-Lu-LX5" userLabel="First Responder" sceneMemberID="firstResponder"/>
